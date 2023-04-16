@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_pricing_pricing_types",
+  "info": {
+    "displayName": "pricing type"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "stripejs": {
+      "type": "richtext"
+    }
+  }
+}

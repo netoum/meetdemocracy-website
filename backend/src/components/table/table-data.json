@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_table_table_data",
+  "info": {
+    "displayName": "Table Data"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

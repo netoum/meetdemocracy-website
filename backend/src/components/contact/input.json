@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_inputs",
+  "info": {
+    "displayName": "input"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "placeholder": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_pricing_pricing_sections",
+  "info": {
+    "displayName": "pricing section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hosted": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.pricing-type"
+    },
+    "selfhosted": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.pricing-type"
+    },
+    "richDescription": {
+      "type": "richtext"
+    }
+  }
+}

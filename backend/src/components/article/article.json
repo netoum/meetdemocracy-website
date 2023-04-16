@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_value_articles",
+  "info": {
+    "displayName": "article",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

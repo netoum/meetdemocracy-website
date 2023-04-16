@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_cards_feature_cards",
+  "info": {
+    "displayName": "featureCard",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "button": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

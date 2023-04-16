@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_feature_featuresimples",
+  "info": {
+    "displayName": "Featuresimple",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "cards.feature-card"
+    }
+  }
+}

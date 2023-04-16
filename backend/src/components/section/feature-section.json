@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_section_feature_sections",
+  "info": {
+    "displayName": "FeatureSection",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.simple-button"
+    }
+  }
+}

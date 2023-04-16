@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_hero_herosimples",
+  "info": {
+    "displayName": "herosimple",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "action": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.simple-button"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "subtitle": {
+      "type": "string"
+    }
+  }
+}

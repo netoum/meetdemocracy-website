@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "table_plans",
+  "info": {
+    "singularName": "table-plan",
+    "pluralName": "table-plans",
+    "displayName": "Table Plan",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
