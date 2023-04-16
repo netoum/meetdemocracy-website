@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700&family=Rammetto+One&family=Source+Sans+Pro:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+.header {
+    @apply z-40 lg:fixed lg:top-0 lg:left-0 lg:right-0 bg-white lg:bg-[#f3f7f4]
+}
+
+.wrapper {
+    @apply relative container max-w-7xl mx-auto
+}
+
+.btn{
+    @apply inline-block cursor-pointer bg-primary_bg hover:bg-opacity-80 px-6 md:px-8 xl:px-8 py-4 text-white rounded-full font-medium text-lg md:text-xl transition duration-500 ease-in-out
+}
+
+.title {
+    @apply font-fontHero font-semibold text-[38px] md:text-[46px] lg:text-[50px] leading-9 lg:leading-[50px] xl:leading-[55px] uppercase
+}
+
+.subtitle {
+    @apply font-fontSubtitle font-medium text-[20px] lg:text-[22px] leading-9 lg:leading-[50px] mb-4 uppercase
+}
+
+.description {
+    @apply pt-[35px] text-[18px] md:text-[20px] lg:text-[20px] text-[#40494D]
+}
+
+.card {
+    @apply w-full lg:w-[50%] bg-[#f3f7f4] hover:bg-[#DDE8ED] p-[32px] lg:p-[80px] rounded-md shadow-md transition duration-[400ms] ease-in-out
+}
+
+.card-index {
+    @apply flex flex-col bg-[#f3f7f4] p-[32px] lg:p-[80px] rounded-md shadow-md
+}
+
+.card-body {
+    @apply text-[16px] lg:text-lg mb-[40px] text-primary_bg
+}
+
+.subtitle-index {
+    @apply font-fontSubtitle my-3 text-[12px] lg:text-[15px] text-[#3e6b65] 
+}
+
+.button-text {
+    @apply block font-medium text-base lg:text-lg mr-5 lg:font-normal leading-5
+}
+
+.faq-category-name {
+    @apply font-fontHero text-3xl hover:bg-gray-50 py-3 px-4 transition duration-[400ms] ease-in-out cursor-pointer
+}
+
+.faq-category-name-question {
+    @apply text-3xl lg:text-4xl font-fontHero my-7
+}
+
+.faq-question {
+    @apply font-normal my-1 text-base lg:text-xl
+}
+
+.input-class {
+    @apply h-10 mt-2 shadow-md rounded-md w-full outline-none px-4
+}
+
+.input-label {
+    @apply block text-base font-normal
+}
+
+.success-message-form {
+    @apply mb-10 p-3 pb-6 border border-black rounded-sm text-[#3e6b65] font-semibold
+}
+
+.pricing-title {
+    @apply text-[42px] lg:text-[60px] font-semibold font-fontHero leading-8 capitalize
+}
+
+.pricing-description {
+    @apply pt-[35px] text-[#40494D] text-base lg:text-lg
+}
+
+@tailwind utilities;
+
+@layer utilities {
+    .hoverlink {
+        @apply relative before:content-[''] before:absolute before:block before:w-full before:h-[2px] 
+                before:bottom-0 before:left-0 before:bg-black
+                before:hover:scale-x-100 before:scale-x-0 before:origin-top-left
+                before:transition before:ease-in-out before:duration-500
+    }
+
+    .markdown a {
+        @apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600
+    }
+    .markdown ul {
+        @apply list-disc
+    }
+    .markdown h1 {
+        @apply text-xs
+    }
+    .markdown h2 {
+        @apply text-sm
+    }
+    .markdown h3 {
+        @apply text-base
+    }
+    .markdown h4 {
+        @apply text-lg
+    }
+    .markdown h5 {
+        @apply text-xl
+    }
+    .markdown strong {
+        @apply font-semibold
+    }
+}
+
+.btn2{
+    @apply px-3 xl:px-5 py-2.5 text-white border border-white rounded-lg text-sm xl:text-base
+}
+
+.menu-link {
+    @apply  transition duration-300 ease-in-out text-primary lg:font-normal text-[18px] lg:text-base
+}
+
+.footer-link {
+    @apply hover:text-[#878D90] text-primary font-normal whitespace-nowrap block pb-2 text-[17px] lg:text-base transition duration-300 ease-in-out
+}
+
+.arrow {
+    @apply h-9 w-9 bg-primary_bg flex items-center justify-center rounded-full transition-transform duration-500 ease-in-out 
+}
+
+.feature {
+    @apply p-4 text-left font-semibold capitalize border-b
+}
+
+.data{
+    @apply p-4 text-center whitespace-nowrap border-b
+}
+
+.cta-hover:hover .cta {
+    transform: translateX(14px);
+}
+
+.title-index {
+    @apply block mb-4 text-[#201E25] text-3xl lg:text-4xl font-medium leading-6 font-fontHero mt-3
+}
+
+.category-title {
+    @apply p-4 text-xl font-fontHero text-start capitalize whitespace-nowrap border-b
+}
+
+.plan-name {
+    @apply px-6 py-4 text-base lg:text-xl font-bold uppercase tracking-wider whitespace-nowrap
+}
