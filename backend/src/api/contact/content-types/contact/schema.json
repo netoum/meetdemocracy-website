@@ -91,6 +91,14 @@
         }
       },
       "type": "string"
+    },
+    "messageError": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
