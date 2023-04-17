@@ -32,31 +32,30 @@
                                 {{ contactPage.input[0].label }}
                             </label>
                             <input v-model="fullname" type="text" id="full-name" class="input-class"
-                                :placeholder=contactPage.input[0].placeholder
-                                :class="{ 'border bg-[#fef6f4] border-red-500 focus:border': showError }"
+                                :placeholder=contactPage.input[0].placeholder :class="{ 'input-error': showError }"
                                 @blur="verifyFullname" @click="showError = !isFullnameValid && fullname.length === 1">
-                            <p v-show="showError && !isFullnameValid" class="text-xs text-red-500 mt-1"> Please complete
-                                this required field </p>
+                            <p v-show="showError && !isFullnameValid" class="error-message"> {{
+                                contactPage.messageError }} </p>
                         </div>
                         <div class="mt-6">
                             <label for="email" class="input-label">{{ contactPage.input[1].label }}</label>
                             <input v-model="email" type="email" id="email" class="input-class"
-                                :class="{ 'border bg-[#fef6f4] border-red-500 focus:border': showErrorEmail }"
-                                @blur="verifyEmail" @click="showErrorEmail = !isEmailValid && email.length === 1"
+                                :class="{ 'input-error': showErrorEmail }" @blur="verifyEmail"
+                                @click="showErrorEmail = !isEmailValid && email.length === 1"
                                 :placeholder=contactPage.input[1].placeholder>
-                            <p v-show="showErrorEmail && !isEmailValid" class="text-xs text-red-500 mt-1"> Please complete
-                                this required field </p>
+                            <p v-show="showErrorEmail && !isEmailValid" class="error-message"> {{
+                                contactPage.messageError }} </p>
                         </div>
                         <div class="mt-6">
                             <label for="message" class="input-label">{{ contactPage.input[2].label }}</label>
                             <textarea v-model="message" id="message" name="message" rows="4"
                                 class="mt-2 shadow-md rounded-md w-full outline-none px-4 py-2"
-                                :class="{ 'border bg-[#fef6f4] border-red-500 focus:border': showErrorMessage }"
-                                @blur="verifyMessage" @click="showErrorMessage = !isMessageValid && message.length === 1"
+                                :class="{ 'input-error': showErrorMessage }" @blur="verifyMessage"
+                                @click="showErrorMessage = !isMessageValid && message.length === 1"
                                 :placeholder=contactPage.input[2].placeholder></textarea>
 
-                            <p v-show="showErrorMessage && !isMessageValid" class="text-xs text-red-500 mt-1"> Please
-                                complete this required field </p>
+                            <p v-show="showErrorMessage && !isMessageValid" class="error-message"> {{
+                                contactPage.messageError }} </p>
 
                         </div>
                         <div class="mt-6">

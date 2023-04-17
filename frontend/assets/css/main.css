@@ -69,6 +69,14 @@
     @apply block text-base font-normal
 }
 
+.input-error {
+    @apply border bg-[#fef6f4] border-red-500 focus:border
+}
+
+.error-message {
+    @apply text-xs text-red-500 mt-1
+}
+
 .success-message-form {
     @apply mb-10 p-3 pb-6 border border-black rounded-sm text-[#3e6b65] font-semibold
 }
@@ -80,6 +88,7 @@
 .pricing-description {
     @apply pt-[35px] text-[#40494D] text-base lg:text-lg
 }
+
 
 @tailwind utilities;
 
