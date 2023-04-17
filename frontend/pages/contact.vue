@@ -32,7 +32,11 @@
                                 {{ contactPage.input[0].label }}
                             </label>
                             <input v-model="fullname" type="text" id="full-name" class="input-class"
-                                :placeholder=contactPage.input[0].placeholder>
+                                :placeholder=contactPage.input[0].placeholder
+                                :class="{ 'border border-red-500 focus:border': showError }" @blur="verifyFullname"
+                                @click="showError = !isFullnameValid && fullname.length === 1">
+                            <p v-show="showError && !isFullnameValid" class="text-xs text-red-500 mt-1"> Please complete
+                                this required field </p>
                         </div>
                         <div class="mt-6">
                             <label for="email" class="input-label">{{ contactPage.input[1].label }}</label>
@@ -46,7 +50,7 @@
                             <textarea v-model="message" id="message" name="message" rows="4"
                                 class="mt-2 shadow-md rounded-md w-full outline-none px-4 py-2"
                                 :placeholder=contactPage.input[2].placeholder>
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        </textarea>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            </textarea>
                         </div>
                         <div class="mt-6">
                             <button @click.prevent="sendEmail" type="button" class="btn font-semibold">
@@ -111,7 +115,10 @@ export default {
             fullname: '',
             email: '',
             message: '',
-            success: false
+            success: false,
+
+            isFullnameValid: false,
+            showError: false
         }
     },
 
@@ -146,6 +153,18 @@ export default {
             catch (error) {
                 console.log(error);
             }
+        },
+
+        verifyFullname() {
+            if (this.fullname.trim() !== '') {
+                this.isFullnameValid = true
+                this.showError = false
+            } else {
+                this.isFullnameValid = false
+                this.showError = true
+            }
+
+
         }
     }
 
