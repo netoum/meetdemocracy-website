@@ -32,10 +32,8 @@
                                 {{ contactPage.input[0].label }}
                             </label>
                             <input v-model="fullname" type="text" id="full-name" class="input-class"
-                                :placeholder=contactPage.input[0].placeholder :class="{ 'input-error': showError }"
-                                @blur="verifyFullname" @click="showError = !isFullnameValid && fullname.length === 1">
-                            <p v-show="showError && !isFullnameValid" class="error-message"> {{
-                                contactPage.messageError }} </p>
+                                :placeholder=contactPage.input[0].placeholder>
+
                         </div>
                         <div class="mt-6">
                             <label for="email" class="input-label">{{ contactPage.input[1].label }}</label>
@@ -123,9 +121,6 @@ export default {
             message: '',
             success: false,
 
-            isFullnameValid: false,
-            showError: false,
-
             isEmailValid: false,
             showErrorEmail: false,
 
@@ -138,7 +133,7 @@ export default {
         async sendEmail(e) {
             e.preventDefault()
 
-            if (this.isFullnameValid && this.isEmailValid) {
+            if (this.isEmailValid) {
 
                 const data = {
                     fullname: this.fullname,
@@ -163,7 +158,7 @@ export default {
                 }
             }
             else {
-                this.showError = !this.isFullnameValid
+
                 this.showErrorEmail = !this.isEmailValid
                 this.showErrorMessage = !this.isMessageValid
             }
@@ -171,15 +166,7 @@ export default {
 
         },
 
-        verifyFullname() {
-            if (this.fullname.trim() !== '') {
-                this.isFullnameValid = true
-                this.showError = false
-            } else {
-                this.isFullnameValid = false
-                this.showError = true
-            }
-        },
+
 
         verifyEmail() {
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
