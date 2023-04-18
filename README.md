@@ -1,13 +1,8 @@
-# Meet Democracy fork of Consul project
-
-**NOTE** This is a **fork** of [Consul Project](https://github.com/consul/consul/).
-A special thanks go the Consul Project Team who did and still doing amazing job with continious updates and support.
-
 
 ![Meet Democracy logo](https://meetdemocracy.com/images/LogoMeetDemocracy.png)
 
 
-## Demo
+## Overview
 
 Hi, we are Meet Democracy! 👋
 
@@ -16,85 +11,72 @@ Hi, we are Meet Democracy! 👋
 Meet democracy platform allows the participants of your community to debate and vote on legislation, budget and more. Our goal is to make community development easy. We intend to democratize community participation by making it accessible to all. We recognize the importance of having access to a democratic and trustworthy platform. Give your community citizens the freedom to express themselves.
 
 
+# Frontend (Nuxt2) 
+
+The frontend of MeetDemocracy is built using Nuxt 2, a framework for building server-side rendered Vue.js applications. The frontend is responsible for rendering the user interface and interacting with the backend APIs.
+
+
+
+
 ## Installation
 
-**NOTE**: For more detailed instructions read the original Consul project [documentation](https://docs.consulproject.org)
-
-Prerequisites: install git, Ruby 2.7.6, CMake, pkg-config, shared-mime-info, Node.js and PostgreSQL (>=9.5).
+To install and run the frontend, follow these steps:
 
 ```bash
 git clone https://github.com/netoum/meetdemocracy-website.git
-cd meetdemocracy-website/backend
-bundle install
-cp config/database.yml.example config/database.yml
-cp config/secrets.yml.example config/secrets.yml
-bin/rake db:create
-bin/rake db:migrate
-bin/rake db:dev_seed
-RAILS_ENV=test rake db:setup
+cd meetdemocracy-website/frontend
 
 ```
 
-Run the app locally:
+for more details see the documentation below :
 
-```bash
-bin/rails s
-
-```
-
-
-
-You can use the default admin user from the seeds file:
-
-**user:** admin
-
-**pass:** meetdemocracy
-
-
-
-But for some actions like voting, you will need a verified user, the seeds file also includes one:
-
-**user:** verified
-
-**pass:** meetdemocracy
+https://github.com/netoum/meetdemocracy-website/tree/master/frontend
 
 
 
 
-## Run Locally
+## Features
 
-Clone the project
+- i18n internationlization 
+- Compare Hosted and Self Hosted solutions
+- Create new discussions
 
-```bash
-  git clone https://github.com/netoum/meetdemocracy-website.git
-```
-
-Go to the project directory
-
-```bash
-  cd meetdemocracy-website/backend
-```
-Install dependencies
-
-```bash
-bundle install
-```
-
-Configure the database and secrets
-```bash
-cp config/database.yml.example config/database.yml
-cp config/secrets.yml.example config/secrets.yml
-```
-Setup the database
-```bash
-  npm run start
-```
-Start the server
-```bash
-bin/rake s
-```
 
 
 ## License
 
 Code published under AFFERO GPL v3 (see [LICENSE-AGPLv3.txt](LICENSE-AGPLv3.txt))
+
+
+## Backend (Strapi v4)
+
+The backend of MeetDemocracy is built using Strapi v4, an open-source headless CMS. The backend is responsible for managing the data and exposing APIs that the frontend can consume.
+## Installation
+
+To install and run the backend, follow these steps:
+
+```bash
+git clone https://github.com/netoum/meetdemocracy-website.git
+cd meetdemocracy-website/backend
+
+```
+
+for more details see the documentation below :
+
+https://github.com/netoum/meetdemocracy-website/tree/master/backend
+## Features
+
+- User authentication and authorization
+
+## Tech Stack
+
+- Nuxt 2
+- Strapi v4
+- Vue.js
+- Node.js
+- PostgreSQL
+
+
+## Contact
+
+If you have any questions or comments about MeetDemocracy, please contact us at https://meetdemocracy.com/contact/
