@@ -43,11 +43,6 @@ https://github.com/netoum/meetdemocracy-website/tree/master/frontend
 
 
 
-## License
-
-Code published under AFFERO GPL v3 (see [LICENSE-AGPLv3.txt](LICENSE-AGPLv3.txt))
-
-
 ## Backend (Strapi v4)
 
 The backend of MeetDemocracy is built using Strapi v4, an open-source headless CMS. The backend is responsible for managing the data and exposing APIs that the frontend can consume.
