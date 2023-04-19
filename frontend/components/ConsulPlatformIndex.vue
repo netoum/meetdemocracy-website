@@ -13,7 +13,8 @@
             class="flex lg:flex-row flex-col lg:space-x-5 space-y-2 lg:space-y-0">
             <div class="w-full lg:w-[50%]">
                 <div class="flex justify-center items-center h-full">
-                    <img class="h-auto w-auto object-cover" :src="coverImageUrl(card)" alt="consul-index">
+                    <nuxt-img provider="strapi" class="h-auto w-auto object-cover" :src="coverImageUrl(card)"
+                        alt="Proudly using Consul Project platform " />
                 </div>
             </div>
             <nuxt-link :to=card.url class="cta-hover card flex flex-col justify-center">

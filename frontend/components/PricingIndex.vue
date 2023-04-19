@@ -3,10 +3,10 @@
         <div class="relative bg-[#f3f7f4] h-full lg:h-auto overflow-hidden mt-0 lg:-mt-52">
 
             <div class="absolute -right-60 lg:right-96 -top-80">
-                <img src="~/assets/images/gradient-radial2.png" alt="gradient2" />
+                <nuxt-img provider="static" src="/images/gradient-radial2.png" alt="gradient2" />
             </div>
             <div class="absolute -right-20 lg:right-20 -top-96">
-                <img src="~/assets/images/gradient-radial2.png" alt="gradient2" />
+                <nuxt-img provider="static" src="/images/gradient-radial2.png" alt="gradient2" />
             </div>
 
             <section class="wrapper z-30 lg:px-8 my-20 lg:my-44 flex justify-center items-start">

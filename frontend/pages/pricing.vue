@@ -1,12 +1,12 @@
 <template>
     <main>
         <section class="relative bg-[#f3f7f4] h-full lg:h-auto lg:mt-28 overflow-hidden">
-            <img src="~/assets/images/gradient-radial2.png"
+            <nuxt-img provider="static" src="/images/gradient-radial2.png"
                 class="absolute -left-40 lg:-left-40 lg:-top-10 w-[400px] h-[400px] lg:w-[700px] lg:h-[700px]"
-                alt="gradient4">
+                alt="gradient4" />
 
-            <img src="~/assets/images/gradient-radial3.png"
-                class="absolute -right-60 top-60 w-[400px] h-[400px] lg:w-[700px] lg:h-[700px]" alt="gradient5">
+            <nuxt-img provider="static" src="/images/gradient-radial3.png"
+                class="absolute -right-60 top-60 w-[400px] h-[400px] lg:w-[700px] lg:h-[700px]" alt="gradient5" />
 
             <div class="wrapper h-full pt-10 px-8 xl:px-0 pb-32 lg:pb-48">
                 <div class="flex flex-col md:flex-row">
