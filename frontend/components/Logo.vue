@@ -1,6 +1,6 @@
 <template>
   <div>
-    <img :src="logo" alt="logo" />
+    <nuxt-img :src="logo" alt="logo" />
   </div>
 </template>
   
