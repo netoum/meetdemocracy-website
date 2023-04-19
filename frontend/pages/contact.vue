@@ -2,10 +2,10 @@
     <main class="bg-white relative overflow-hidden">
         <section class="wrapper h-full lg:mt-44 mb-40 ">
             <div class="absolute top-60 lg:-top-20 -left-44 lg:-left-80">
-                <nuxt-img provider="static" class="object-cover" src="/images/gradient-radial2.png" alt="gradient2" />
+                <img class="object-cover" src="~/assets/images/gradient-radial2.png" alt="gradient2">
             </div>
             <div class="absolute bottom-0 lg:-bottom-96 right-0 lg:-right-60">
-                <nuxt-img provider="static" class="object-cover" src="/images/gradient-radial3.png" alt="gradient2" />
+                <img class="object-cover" src="~/assets/images/gradient-radial3.png" alt="gradient2">
             </div>
             <div
                 class="flex flex-col lg:flex-row justify-center items-center space-x-0 lg:space-x-20 px-8 lg:px-0 mt-40 lg:mt-0">

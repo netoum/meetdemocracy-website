@@ -3,8 +3,7 @@
         <div class="flex lg:flex-row flex-col lg:space-x-5 space-y-10 lg:space-y-0 h-full">
             <div class="w-full lg:w-[50%]">
                 <div class="flex justify-center items-center h-full">
-                    <nuxt-img provider="strapi" class="h-auto w-auto object-cover p-10 lg:p-20" :src="coverImageUrl"
-                        :alt="feature.title" />
+                    <img class="h-auto w-auto object-cover p-10 lg:p-20" :src="coverImageUrl" alt="feature1">
                 </div>
             </div>
             <a :href=feature.view.url target="_blank"
