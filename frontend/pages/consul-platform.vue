@@ -2,8 +2,8 @@
     <main>
         <section class="relative bg-[#f3f7f4] h-full lg:h-auto lg:mt-28 overflow-hidden">
 
-            <nuxt-img provider="static" src="/images/gradient-radial3.png"
-                class="absolute -right-60 top-60 w-[400px] h-[400px] lg:w-[700px] lg:h-[700px]" alt="gradient5" />
+            <img src="~/assets/images/gradient-radial3.png"
+                class="absolute -right-60 top-60 w-[400px] h-[400px] lg:w-[700px] lg:h-[700px]" alt="gradient5">
 
 
             <div class="wrapper h-full pt-10 px-8 xl:px-0 pb-32 lg:pb-48">

@@ -3,8 +3,7 @@
         <div class="flex lg:flex-row flex-col lg:space-x-5 space-y-10 lg:space-y-0">
             <div class="w-full lg:w-[50%]">
                 <div class="flex justify-center items-center h-full">
-                    <nuxt-img provider="strapi" class="h-auto w-auto object-cover p-10 lg:p-20" :src="coverImageUrl"
-                        :alt="consul.title" />
+                    <img class="h-auto w-auto object-cover p-10 lg:p-20" :src="coverImageUrl" alt="feature2">
                 </div>
             </div>
             <a :href=consul.view.url target="_blank" class="cta-hover card flex flex-col justify-center">
