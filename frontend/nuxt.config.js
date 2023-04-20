@@ -82,6 +82,10 @@ export default {
     '@nuxt/image',
   ],
 
+  image: {
+    provider: "ipx"
+  },
+
   i18n: {
     locales:['en', 'fr'],
     defaultLocale: 'en'
