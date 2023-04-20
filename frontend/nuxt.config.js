@@ -54,7 +54,6 @@ export default {
   buildModules: [
     '@nuxt/postcss8',
     '@nuxtjs/fontawesome',
-    '@nuxt/image',
     '@nuxtjs/google-analytics'
   ],
 
@@ -79,7 +78,8 @@ export default {
     '@nuxtjs/i18n',
     '@nuxtjs/axios',
     '@nuxtjs/markdownit',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxt/image',
   ],
 
   i18n: {
