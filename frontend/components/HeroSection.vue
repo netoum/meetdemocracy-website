@@ -26,21 +26,24 @@
                 </div>
 
                 <div class="relative lg:static z-20 h-[500px] lg:h-full max-w-full mt-24 flex justify-center items-center">
-                    <div
-                        class="absolute lg:right-[50px] 2xl:right-[40px] bottom-[200px] lg:bottom-[350px] h-auto w-[350px] md:w-[410px] lg:w-[420px] 2xl:w-[440px]">
-                        <nuxt-img class="object-cover" src="/images/desktop-meetdemocracy.png" alt="desktop-image" />
+                    <div class="absolute lg:right-[50px] 2xl:right-[40px] bottom-[200px] lg:bottom-[350px] h-auto">
+                        <nuxt-img class="object-cover" src="/images/desktop-meetdemocracy.png"
+                            sizes="sm:350px md:410px lg:420px 2xl:440px" />
                     </div>
                     <div
-                        class="absolute mr-12 md:mr-60 lg:mr-0 top-[240px] lg:top-[340px] lg:right-[220px] 2xl:right-[170px] h-auto w-[300px] md:w-[380px] lg:w-[420px] 2xl:w-[490px]">
-                        <nuxt-img class="object-cover" src="/images/laptop-meetdemocracy.png" alt="laptop-image" />
+                        class="absolute mr-12 md:mr-60 lg:mr-0 top-[240px] lg:top-[340px] lg:right-[220px] 2xl:right-[170px] h-auto">
+                        <nuxt-img class="object-cover" src="/images/laptop-meetdemocracy.png"
+                            sizes="300px md:380px lg:420px 2xl:490px" />
                     </div>
                     <div
-                        class="absolute -mr-44 md:-mr-60 lg:mr-0 top-[210px] lg:top-[300px] lg:-right-[10px] 2xl:-right-[20px] h-auto w-[150px] md:w-[210px] lg:w-[230px] 2xl:w-[250px]">
-                        <nuxt-img class="object-cover" src="/images/tablette-meetdemocracy.png" alt="tablette-image" />
+                        class="absolute -mr-44 md:-mr-60 lg:mr-0 top-[210px] lg:top-[300px] lg:-right-[10px] 2xl:-right-[20px] h-auto ">
+                        <nuxt-img class="object-cover" src="/images/tablette-meetdemocracy.png"
+                            sizes="150px md:210px lg:230px 2xl:250px" />
                     </div>
                     <div
-                        class="absolute mr-20 lg:mr-0 top-[330px] lg:top-[420px] lg:-right-[30px] 2xl:-right-[80px] lg:h-[150px] md:h-[135px] h-[120px] w-[80px] md:w-[110px] lg:w-[130px] 2xl:w-[150px]">
-                        <nuxt-img class="object-cover" src="/images/phone-meetdemocracy.png" alt="mobile-hero-image" />
+                        class="absolute mr-20 lg:mr-0 top-[330px] lg:top-[420px] lg:-right-[30px] 2xl:-right-[80px] lg:h-[150px] md:h-[135px] h-[120px] ">
+                        <nuxt-img class="object-cover" src="/images/phone-meetdemocracy.png"
+                            sizes="80px md:110px lg:130px 2xl:150px" />
                     </div>
                 </div>
 
