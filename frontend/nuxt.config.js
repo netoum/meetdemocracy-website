@@ -21,19 +21,19 @@ export default {
     script: [
       { src: "https://code.jquery.com/jquery-3.6.0.min.js" },
       { src: 'https://support.meetdemocracy.com/assets/chat/chat.min.js', body: true },
-      // {
-      //   src: `https://www.googletagmanager.com/gtag/js?id=G-2V5K00VVV0`,
-      //   async: true,
-      //   defer: true
-      // },
-      // {
-      //   innerHTML: `
-      //     window.dataLayer = window.dataLayer || [];
-      //     function gtag(){dataLayer.push(arguments);}
-      //     gtag('js', new Date());
-      //     gtag('config', 'G-2V5K00VVV0');
-      //   `
-      // }
+      {
+        src: `https://www.googletagmanager.com/gtag/js?id=G-2V5K00VVV0`,
+        async: true,
+        defer: true
+      },
+      {
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-2V5K00VVV0');
+        `
+      }
     ]
   },
 
