@@ -82,13 +82,9 @@ export default {
     '@nuxt/image',
   ],
 
-  // image: {
-  //   formats: {
-  //     webp: {
-  //       quality: 75
-  //     }
-  //   }
-  // },
+  image: {
+    provider: "ipx"
+  },
 
   i18n: {
     locales:['en', 'fr'],
