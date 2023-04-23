@@ -54,18 +54,21 @@ export default {
   buildModules: [
     '@nuxt/postcss8',
     '@nuxtjs/fontawesome',
-    '@nuxtjs/google-analytics'
+    '@nuxtjs/google-analytics',
+    '@nuxt/image'
   ],
 
   googleAnalytics: {
     id: 'G-2V5K00VVV0'
   },
 
-  // image: {
-  //   strapi: {
-  //     baseURL: 'https://it7qkyesbfvuustk6819.cleaver.live/uploads/'
-  //   }
-  // },
+  image: {
+    presets: {
+      webp: {
+        format: 'webp'
+      }
+    }
+  },
 
   fontawesome: {
     icons: {
@@ -79,12 +82,7 @@ export default {
     '@nuxtjs/axios',
     '@nuxtjs/markdownit',
     '@nuxtjs/sitemap',
-    '@nuxt/image',
   ],
-
-  image: {
-    provider: "ipx"
-  },
 
   i18n: {
     locales:['en', 'fr'],
