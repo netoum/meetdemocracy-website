@@ -20,7 +20,10 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       { src: "https://code.jquery.com/jquery-3.6.0.min.js" },
-      { src: 'https://support.meetdemocracy.com/assets/chat/chat.min.js', body: true },
+      {
+        src: `https://code.tidio.co/jitdgumdgnkslcbbg0l7o138sud9uu8h.js`,
+        async: true
+      },
       {
         src: `https://www.googletagmanager.com/gtag/js?id=G-2V5K00VVV0`,
         async: true,
