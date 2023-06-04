@@ -12,15 +12,15 @@
         </section>
 
         <div v-if="this.$i18n.locale === 'en'" class="my-10 lg:my-20">
-             <stripe-pricing-table pricing-table-id="prctbl_1MldpkJpugXzHFOvmCB4ttoD"
-                publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
-            </stripe-pricing-table>
+<stripe-pricing-table pricing-table-id="prctbl_1NFCnkLOhqkFFBKGs1nEjgCp"
+publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+</stripe-pricing-table>
         </div>
 
         <div v-else class="my-10 lg:my-20">
-             <stripe-pricing-table pricing-table-id="prctbl_1MtSzbJpugXzHFOvPV0FXAnU"
-                publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
-            </stripe-pricing-table>
+<stripe-pricing-table pricing-table-id="prctbl_1NFGDILOhqkFFBKGBVyTdgr8"
+publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+</stripe-pricing-table>
         </div>
 
         <pricing-table-hosted />
@@ -37,14 +37,14 @@
         </section>
         <div class="my-10 lg:mb-20">
             <div v-if="this.$i18n.locale === 'en'" class="my-10 lg:my-20">
-                     <stripe-pricing-table pricing-table-id="prctbl_1MleBmJpugXzHFOvTT1PvKYN"
-                    publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
-                </stripe-pricing-table>
+<stripe-pricing-table pricing-table-id="prctbl_1NFDPRLOhqkFFBKGQSjS0G78"
+publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+</stripe-pricing-table>
             </div>
             <div v-else class="my-10 lg:my-20">
-                     <stripe-pricing-table pricing-table-id="prctbl_1MtT2mJpugXzHFOv81oN5KBR"
-                    publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
-                </stripe-pricing-table>
+<stripe-pricing-table pricing-table-id="prctbl_1NFGF5LOhqkFFBKGXMW4b4O4"
+publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+</stripe-pricing-table>
             </div>
         </div>
 
