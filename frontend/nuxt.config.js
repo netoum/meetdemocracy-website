@@ -20,22 +20,17 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       { src: "https://code.jquery.com/jquery-3.6.0.min.js" },
+      { src: "https://js.stripe.com/v3/pricing-table.js",
+      async: true,
+    },
       {
-        src: `https://code.tidio.co/jitdgumdgnkslcbbg0l7o138sud9uu8h.js`,
+        src: "https://code.tidio.co/jitdgumdgnkslcbbg0l7o138sud9uu8h.js",
         async: true
       },
       {
-        src: `https://www.googletagmanager.com/gtag/js?id=G-2V5K00VVV0`,
+        src: "https://www.googletagmanager.com/gtag/js?id=G-2V5K00VVV0",
         async: true,
         defer: true
-      },
-      {
-        innerHTML: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-2V5K00VVV0');
-        `
       }
     ]
   },
@@ -47,7 +42,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    { src: '~/plugins/zammad-chat.js', ssr: false }
+    // { src: '~/plugins/zammad-chat.js', ssr: false }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -107,11 +102,6 @@ export default {
       lastmod: new Date()
     }
   },
-
-  env: {
-    STRIPE_PUBLIC_KEY: process.env.STRIPE_PUBLIC_KEY,
-  },
-  
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {

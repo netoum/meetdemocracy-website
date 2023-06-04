@@ -28,15 +28,13 @@
         </section>
 
         <div v-if="this.$i18n.locale === 'en'" class="my-10 lg:my-20">
-            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-            <stripe-pricing-table pricing-table-id="prctbl_1MldpkJpugXzHFOvmCB4ttoD"
+             <stripe-pricing-table pricing-table-id="prctbl_1MldpkJpugXzHFOvmCB4ttoD"
                 publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
             </stripe-pricing-table>
         </div>
 
         <div v-else class="my-10 lg:my-20">
-            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-            <stripe-pricing-table pricing-table-id="prctbl_1MtSzbJpugXzHFOvPV0FXAnU"
+             <stripe-pricing-table pricing-table-id="prctbl_1MtSzbJpugXzHFOvPV0FXAnU"
                 publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
             </stripe-pricing-table>
         </div>
@@ -62,14 +60,12 @@
         </section>
 
         <div v-if="this.$i18n.locale === 'en'" class="my-10 lg:my-20">
-            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-            <stripe-pricing-table pricing-table-id="prctbl_1MleBmJpugXzHFOvTT1PvKYN"
+             <stripe-pricing-table pricing-table-id="prctbl_1MleBmJpugXzHFOvTT1PvKYN"
                 publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
             </stripe-pricing-table>
         </div>
         <div v-else class="my-10 lg:my-20">
-            <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
-            <stripe-pricing-table pricing-table-id="prctbl_1MtT2mJpugXzHFOv81oN5KBR"
+             <stripe-pricing-table pricing-table-id="prctbl_1MtT2mJpugXzHFOv81oN5KBR"
                 publishable-key="pk_live_51MWNk2JpugXzHFOvPvu6h6i8F5jUV0lyYjJzOj1PrL477t7e9VO9zu8EjkaP4KYo5QoS2d2Yxg4lU99c5fNMmY5K00uwJvmF21">
             </stripe-pricing-table>
         </div>
