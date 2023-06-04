@@ -24,7 +24,6 @@
             </div>
         </section>
         <pricing-section />
-        <pricing-table-features />
     </main>
 </template>
 

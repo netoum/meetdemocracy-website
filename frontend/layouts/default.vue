@@ -5,7 +5,6 @@
         <div class="flex-grow">
             <Nuxt />
         </div>
-        <div id="zammad-chat"></div>
 
         <!-- <button @click="openModal()" id="contact-button" type="button"
             class="fixed lg:right-8 lg:bottom-8 right-4 bottom-4 p-1 lg:p-3 z-50 transition duration-700 ease-in-out opacity-0">
