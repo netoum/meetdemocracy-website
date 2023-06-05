@@ -1,5 +1,3 @@
-const path = require('path');
-
 module.exports = ({
   'drag-drop-content-types': {
     enabled: true
@@ -13,7 +11,7 @@ module.exports = ({
         port: 465,
         auth: {
           user: 'contact@meetdemocracy.com',
-          pass: env('SMTP_PASS', 'pass'),
+          pass: 'pass'
         },
       },
       settings: {
