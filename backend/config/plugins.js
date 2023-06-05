@@ -11,7 +11,7 @@ module.exports = ({
         port: 465,
         auth: {
           user: 'contact@meetdemocracy.com',
-          pass: '%Ri*Z4O@wPW2s*Oo'
+          pass: env('SMTP_PASS')
         },
       },
       settings: {
