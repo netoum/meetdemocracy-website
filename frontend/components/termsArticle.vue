@@ -3,7 +3,7 @@
 
         <h1 class="title-index capitalize">{{ term.name }}</h1>
         <p class="description">
-            {{ term.description }}
+            <Markdown :markdown="term.description" />
         </p>
 
     </div>

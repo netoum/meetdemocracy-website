@@ -3,7 +3,7 @@
 
         <h1 class="capitalize font-normal my-1 text-3xl lg:text-4xl font-fontHero">{{ priv.name }}</h1>
         <p class="py-2 text-sm lg:text-[18px] font-light leading-6">
-            {{ priv.description }}
+            <Markdown :markdown="priv.description" />
         </p>
 
     </div>
