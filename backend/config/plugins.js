@@ -1,4 +1,4 @@
-module.exports = ({
+module.exports = ({ env }) => ({
   'drag-drop-content-types': {
     enabled: true
   },
@@ -11,7 +11,7 @@ module.exports = ({
         port: 465,
         auth: {
           user: 'contact@meetdemocracy.com',
-          pass: 'pass'
+          pass: env('SMTP_PASS', 'pass'),
         },
       },
       settings: {
