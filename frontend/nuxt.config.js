@@ -56,7 +56,7 @@ export default {
   ],
 
   googleAnalytics: {
-    id: 'G-2V5K00VVV0'
+    id: 'UA-4881259924'
   },
 
   // image: {
