@@ -28,14 +28,14 @@
         </section>
 
         <div v-if="this.$i18n.locale === 'en'" class="my-10 lg:my-20">
-<stripe-pricing-table pricing-table-id="prctbl_1NFCnkLOhqkFFBKGs1nEjgCp"
-publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+<stripe-pricing-table pricing-table-id="prctbl_1NKDrtBgLc2EM681tZp7uIpk"
+publishable-key="pk_live_51NHOzeBgLc2EM681OYNUSlvL6FpdZAixw3ZWxSx6aTKipnkCIZAimEj9msR6HJ5iU6qjZ9IJnuvc9Kxkkjrerfl400iDr2pnrB">
 </stripe-pricing-table>
         </div>
 
         <div v-else class="my-10 lg:my-20">
-<stripe-pricing-table pricing-table-id="prctbl_1NFGDILOhqkFFBKGBVyTdgr8"
-publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+<stripe-pricing-table pricing-table-id="prctbl_1NKE13BgLc2EM6814q9yDYLN"
+publishable-key="pk_live_51NHOzeBgLc2EM681OYNUSlvL6FpdZAixw3ZWxSx6aTKipnkCIZAimEj9msR6HJ5iU6qjZ9IJnuvc9Kxkkjrerfl400iDr2pnrB">
 </stripe-pricing-table>
         </div>
 
@@ -60,13 +60,13 @@ publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12
         </section>
 
         <div v-if="this.$i18n.locale === 'en'" class="my-10 lg:my-20">
-<stripe-pricing-table pricing-table-id="prctbl_1NFDPRLOhqkFFBKGQSjS0G78"
-publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+<stripe-pricing-table pricing-table-id="prctbl_1NKDxJBgLc2EM681iINLpb8w"
+publishable-key="pk_live_51NHOzeBgLc2EM681OYNUSlvL6FpdZAixw3ZWxSx6aTKipnkCIZAimEj9msR6HJ5iU6qjZ9IJnuvc9Kxkkjrerfl400iDr2pnrB">
 </stripe-pricing-table>
         </div>
         <div v-else class="my-10 lg:my-20">
-<stripe-pricing-table pricing-table-id="prctbl_1NFGF5LOhqkFFBKGXMW4b4O4"
-publishable-key="pk_live_51NETryLOhqkFFBKGcvxVXAps3nsApWa8ubQECrWU4jXGoIp4rwQI12MHVhuRbOuwFLT0WZAQosQCsbzy9kC6zW9s00HoWu4B8p">
+<stripe-pricing-table pricing-table-id="prctbl_1NKEIpBgLc2EM681stkEJUPf"
+publishable-key="pk_live_51NHOzeBgLc2EM681OYNUSlvL6FpdZAixw3ZWxSx6aTKipnkCIZAimEj9msR6HJ5iU6qjZ9IJnuvc9Kxkkjrerfl400iDr2pnrB">
 </stripe-pricing-table>
         </div>
 
